@@ -13,4 +13,15 @@ public class Main {
         System.out.println("Hello, world!");
     }
     
+    /**
+     * Reverses a string
+     */
+    public static String reverseString(String str) {
+        StringBuilder sb = new StringBuilder();
+        for(int index = str.length(); index > 0; --index) {
+            sb.append(str.charAt(index - 1));
+        }
+        return sb.toString();
+    }
+    
 }

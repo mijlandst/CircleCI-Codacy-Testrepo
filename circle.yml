@@ -4,5 +4,3 @@ general:
 machine:
   java:
     version: openjdk8
-    
-
